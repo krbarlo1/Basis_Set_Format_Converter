@@ -23,7 +23,7 @@ st.sidebar.write('The BSE library is available under the [BSD 3-Clause license](
 st.write('# Basis Set Format Converter')
 st.write('This online tool allows you to enter a basis set in the form of text input for a variety of Quantum Chemistry softwares, and convert it to another format.')
 
-placeholder_cfour_basis = '''# Example Cfour basis set for Hydrogen
+placeholder_cfour_basis = ''# Example Cfour basis set for Hydrogen
 
 H:aug-cc-pV5Z-DK
 V5ZPD   All-electron Douglas-Kroll Valence Quintuple Zeta + Polarization
