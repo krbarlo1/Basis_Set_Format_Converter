@@ -132,9 +132,6 @@ else:
         height=400
     )
 
-# Remove empty lines efficiently
-input_basis_str = "\n".join(filter(str.strip, input_basis_str.splitlines()))
-
 # --- OUTPUT COLUMN ---
 col2.write('## OUTPUT')
 
