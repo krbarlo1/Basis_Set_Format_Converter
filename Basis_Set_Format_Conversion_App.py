@@ -137,8 +137,8 @@ col2.write('## OUTPUT')
 
 output_format = col2.selectbox(
     'Select the output basis set format',
-    tuple(fmt for fmt in placeholder_examples if fmt != input_format),
-    index=0  # Default to the other format
+    tuple(placeholder_examples.keys()),
+    index=0
 )
 
 # --- Conversion Logic ---
