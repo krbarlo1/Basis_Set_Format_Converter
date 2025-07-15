@@ -26,7 +26,7 @@ st.write('This online tool allows you to enter a basis set in the form of text i
 placeholder_cfour_basis = ''# Example Cfour basis set for Hydrogen
 
 H:aug-cc-pV5Z-DK
-V5ZPD   All-electron Douglas-Kroll Valence Quintuple Zeta + Polarization
+comment
 
   5
     0    1    2    3    4
